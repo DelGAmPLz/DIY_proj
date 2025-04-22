@@ -1,0 +1,13 @@
+# Target labels
+ ulp_main
+# Source files and their labels
+C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/ADC_Oneshot/build/esp-idf/main/CMakeFiles/ulp_main
+C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/ADC_Oneshot/build/esp-idf/main/CMakeFiles/ulp_main.rule
+C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/ADC_Oneshot/build/esp-idf/main/CMakeFiles/ulp_main-complete.rule
+C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/ADC_Oneshot/build/esp-idf/main/ulp_main-prefix/src/ulp_main-stamp/ulp_main-build.rule
+C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/ADC_Oneshot/build/esp-idf/main/ulp_main-prefix/src/ulp_main-stamp/ulp_main-configure.rule
+C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/ADC_Oneshot/build/esp-idf/main/ulp_main-prefix/src/ulp_main-stamp/ulp_main-download.rule
+C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/ADC_Oneshot/build/esp-idf/main/ulp_main-prefix/src/ulp_main-stamp/ulp_main-install.rule
+C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/ADC_Oneshot/build/esp-idf/main/ulp_main-prefix/src/ulp_main-stamp/ulp_main-mkdir.rule
+C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/ADC_Oneshot/build/esp-idf/main/ulp_main-prefix/src/ulp_main-stamp/ulp_main-patch.rule
+C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/ADC_Oneshot/build/esp-idf/main/ulp_main-prefix/src/ulp_main-stamp/ulp_main-update.rule

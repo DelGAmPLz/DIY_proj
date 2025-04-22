@@ -1,0 +1,22 @@
+{
+    "C_Cpp.intelliSenseEngine": "default",
+    "idf.espIdfPathWin": "D:/Espressif/frameworks/esp-idf-v5.4/",
+    "idf.pythonInstallPath": "D:\\Espressif\\tools\\idf-python\\3.11.2\\python.exe",
+    "idf.openOcdConfigs": [
+		"board/esp32s3-builtin.cfg"
+	],
+	"idf.toolsPathWin": "D:\\Espressif",
+	"idf.portWin": "COM6",
+	"idf.customExtraVars": {
+		"IDF_TARGET": "esp32s3"
+	},
+	"files.associations": {
+		"xl9555.h": "c",
+		"spi_lcd.h": "c",
+		"esp_lcd_panel_interface.h": "c",
+		"esp_lcd_panel_st7789.h": "c",
+		"spi_dma.h": "c",
+		"spi_lcd_font.h": "c",
+		"gpio.h": "c"
+	}
+}

@@ -1,0 +1,32 @@
+Compiler supported targets: xtensa-esp32s3-elf
+
+CMake Error:
+  Running
+
+   'D:/Espressif/tools/ninja/1.10.2/ninja.exe' '-C' 'C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/PWM-SW/build/CMakeFiles/CMakeTmp' '-t' 'recompact'
+
+  failed with:
+
+   ninja: error: failed recompaction: Permission denied
+
+
+
+CMake Error:
+  Running
+
+   'D:/Espressif/tools/ninja/1.10.2/ninja.exe' '-C' 'C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/PWM-SW/build/CMakeFiles/CMakeTmp' '-t' 'restat' 'build.ninja'
+
+  failed with:
+
+   ninja: error: failed recompaction: Permission denied
+
+
+
+CMake Error at D:/Espressif/tools/cmake/3.24.0/share/cmake-3.24/Modules/Internal/CheckSourceCompiles.cmake:95 (try_compile):
+  Failed to generate test project build system.
+Call Stack (most recent call first):
+  D:/Espressif/tools/cmake/3.24.0/share/cmake-3.24/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)
+  D:/Espressif/tools/cmake/3.24.0/share/cmake-3.24/Modules/CheckCCompilerFlag.cmake:40 (cmake_check_compiler_flag)
+  D:/Espressif/frameworks/esp-idf-v5.1.2/components/mbedtls/mbedtls/CMakeLists.txt:200 (CHECK_C_COMPILER_FLAG)
+
+
