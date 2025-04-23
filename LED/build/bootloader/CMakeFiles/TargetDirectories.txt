@@ -4,6 +4,7 @@ C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/LED/build/bootloader/C
 C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/LED/build/bootloader/CMakeFiles/gen_project_binary.dir
 C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/LED/build/bootloader/CMakeFiles/app.dir
 C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/LED/build/bootloader/CMakeFiles/erase_flash.dir
+C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/LED/build/bootloader/CMakeFiles/merge-bin.dir
 C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/LED/build/bootloader/CMakeFiles/monitor.dir
 C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/LED/build/bootloader/CMakeFiles/_project_elf_src.dir
 C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/LED/build/bootloader/CMakeFiles/bootloader.elf.dir
@@ -13,8 +14,8 @@ C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/LED/build/bootloader/C
 C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/LED/build/bootloader/CMakeFiles/dfu.dir
 C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/LED/build/bootloader/CMakeFiles/dfu-list.dir
 C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/LED/build/bootloader/CMakeFiles/dfu-flash.dir
-C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/LED/build/bootloader/CMakeFiles/uf2-app.dir
 C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/LED/build/bootloader/CMakeFiles/uf2.dir
+C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/LED/build/bootloader/CMakeFiles/uf2-app.dir
 C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/LED/build/bootloader/CMakeFiles/edit_cache.dir
 C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/LED/build/bootloader/CMakeFiles/rebuild_cache.dir
 C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/LED/build/bootloader/esp-idf/CMakeFiles/edit_cache.dir
@@ -36,7 +37,9 @@ C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/LED/build/bootloader/e
 C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/LED/build/bootloader/esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir
 C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/LED/build/bootloader/esp-idf/spi_flash/CMakeFiles/edit_cache.dir
 C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/LED/build/bootloader/esp-idf/spi_flash/CMakeFiles/rebuild_cache.dir
-C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/LED/build/bootloader/esp-idf/esp_app_format/CMakeFiles/__idf_esp_app_format.dir
+C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/LED/build/bootloader/esp-idf/esp_bootloader_format/CMakeFiles/__idf_esp_bootloader_format.dir
+C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/LED/build/bootloader/esp-idf/esp_bootloader_format/CMakeFiles/edit_cache.dir
+C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/LED/build/bootloader/esp-idf/esp_bootloader_format/CMakeFiles/rebuild_cache.dir
 C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/LED/build/bootloader/esp-idf/esp_app_format/CMakeFiles/edit_cache.dir
 C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/LED/build/bootloader/esp-idf/esp_app_format/CMakeFiles/rebuild_cache.dir
 C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/LED/build/bootloader/esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir
@@ -52,6 +55,8 @@ C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/LED/build/bootloader/e
 C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/LED/build/bootloader/esp-idf/efuse/CMakeFiles/efuse_test_table.dir
 C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/LED/build/bootloader/esp-idf/efuse/CMakeFiles/edit_cache.dir
 C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/LED/build/bootloader/esp-idf/efuse/CMakeFiles/rebuild_cache.dir
+C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/LED/build/bootloader/esp-idf/esp_security/CMakeFiles/edit_cache.dir
+C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/LED/build/bootloader/esp-idf/esp_security/CMakeFiles/rebuild_cache.dir
 C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/LED/build/bootloader/esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir
 C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/LED/build/bootloader/esp-idf/esp_system/CMakeFiles/edit_cache.dir
 C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/LED/build/bootloader/esp-idf/esp_system/CMakeFiles/rebuild_cache.dir
@@ -60,6 +65,8 @@ C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/LED/build/bootloader/e
 C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/LED/build/bootloader/esp-idf/esp_hw_support/CMakeFiles/rebuild_cache.dir
 C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/LED/build/bootloader/esp-idf/esp_hw_support/port/esp32s3/CMakeFiles/edit_cache.dir
 C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/LED/build/bootloader/esp-idf/esp_hw_support/port/esp32s3/CMakeFiles/rebuild_cache.dir
+C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/LED/build/bootloader/esp-idf/esp_hw_support/lowpower/CMakeFiles/edit_cache.dir
+C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/LED/build/bootloader/esp-idf/esp_hw_support/lowpower/CMakeFiles/rebuild_cache.dir
 C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/LED/build/bootloader/esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir
 C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/LED/build/bootloader/esp-idf/esp_common/CMakeFiles/edit_cache.dir
 C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/LED/build/bootloader/esp-idf/esp_common/CMakeFiles/rebuild_cache.dir

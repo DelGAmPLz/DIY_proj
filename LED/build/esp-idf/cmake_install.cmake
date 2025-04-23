@@ -1,4 +1,4 @@
-# Install script for directory: D:/Espressif/frameworks/esp-idf-v5.1.2
+# Install script for directory: D:/Espressif/frameworks/esp-idf-v5.4
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -32,9 +32,9 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "TRUE")
 endif()
 
-# Set default install directory permissions.
+# Set path to fallback-tool for dependency-resolution.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "D:/Espressif/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/xtensa-esp32s3-elf-objdump.exe")
+  set(CMAKE_OBJDUMP "D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-objdump.exe")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
@@ -44,17 +44,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/LED/build/esp-idf/esp_ringbuf/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
-  include("C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/LED/build/esp-idf/efuse/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
-  include("C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/LED/build/esp-idf/driver/cmake_install.cmake")
+  include("C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/LED/build/esp-idf/esp_driver_gpio/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
@@ -65,16 +55,6 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
   include("C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/LED/build/esp-idf/mbedtls/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
-  include("C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/LED/build/esp-idf/esp_app_format/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
-  include("C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/LED/build/esp-idf/bootloader_support/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
@@ -94,12 +74,32 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/LED/build/esp-idf/esp_partition/cmake_install.cmake")
+  include("C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/LED/build/esp-idf/esp_app_format/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/LED/build/esp-idf/esp_bootloader_format/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
   include("C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/LED/build/esp-idf/app_update/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/LED/build/esp-idf/esp_partition/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/LED/build/esp-idf/efuse/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/LED/build/esp-idf/bootloader_support/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
@@ -114,12 +114,12 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/LED/build/esp-idf/pthread/cmake_install.cmake")
+  include("C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/LED/build/esp-idf/esp_system/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/LED/build/esp-idf/esp_system/cmake_install.cmake")
+  include("C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/LED/build/esp-idf/esp_common/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
@@ -149,6 +149,11 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
+  include("C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/LED/build/esp-idf/esp_security/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
   include("C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/LED/build/esp-idf/esp_hw_support/cmake_install.cmake")
 endif()
 
@@ -164,17 +169,32 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
+  include("C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/LED/build/esp-idf/pthread/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
   include("C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/LED/build/esp-idf/cxx/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/LED/build/esp-idf/esp_common/cmake_install.cmake")
+  include("C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/LED/build/esp-idf/esp_timer/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/LED/build/esp-idf/esp_timer/cmake_install.cmake")
+  include("C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/LED/build/esp-idf/esp_driver_gptimer/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/LED/build/esp-idf/esp_ringbuf/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/LED/build/esp-idf/esp_driver_uart/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
@@ -194,7 +214,102 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
+  include("C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/LED/build/esp-idf/esp_driver_pcnt/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/LED/build/esp-idf/esp_driver_spi/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/LED/build/esp-idf/esp_driver_mcpwm/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/LED/build/esp-idf/esp_driver_ana_cmpr/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/LED/build/esp-idf/esp_driver_i2s/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/LED/build/esp-idf/sdmmc/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/LED/build/esp-idf/esp_driver_sdmmc/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/LED/build/esp-idf/esp_driver_sdspi/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/LED/build/esp-idf/esp_driver_sdio/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/LED/build/esp-idf/esp_driver_dac/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/LED/build/esp-idf/esp_driver_rmt/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/LED/build/esp-idf/esp_driver_tsens/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/LED/build/esp-idf/esp_driver_sdm/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/LED/build/esp-idf/esp_driver_i2c/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/LED/build/esp-idf/esp_driver_ledc/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/LED/build/esp-idf/esp_driver_parlio/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/LED/build/esp-idf/esp_driver_usb_serial_jtag/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/LED/build/esp-idf/driver/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
   include("C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/LED/build/esp-idf/esp_phy/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/LED/build/esp-idf/esp_vfs_console/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
@@ -265,6 +380,31 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
   include("C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/LED/build/esp-idf/esp_adc/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/LED/build/esp-idf/esp_driver_isp/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/LED/build/esp-idf/esp_driver_cam/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/LED/build/esp-idf/esp_driver_jpeg/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/LED/build/esp-idf/esp_driver_ppa/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/LED/build/esp-idf/esp_driver_touch_sens/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
@@ -344,11 +484,6 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/LED/build/esp-idf/sdmmc/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
   include("C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/LED/build/esp-idf/fatfs/cmake_install.cmake")
 endif()
 
@@ -374,12 +509,22 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
+  include("C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/LED/build/esp-idf/nvs_sec_provider/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
   include("C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/LED/build/esp-idf/openthread/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
   include("C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/LED/build/esp-idf/perfmon/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/LED/build/esp-idf/rt/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
@@ -405,6 +550,11 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
   include("C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/LED/build/esp-idf/wifi_provisioning/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/LED/build/esp-idf/BSP/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)

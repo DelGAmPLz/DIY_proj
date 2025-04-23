@@ -3,8 +3,13 @@
 
 cmake_minimum_required(VERSION 3.5)
 
+# If CMAKE_DISABLE_SOURCE_CHANGES is set to true and the source directory is an
+# existing directory in our source tree, calling file(MAKE_DIRECTORY) on it
+# would cause a fatal error, even though it would be a no-op.
+if(NOT EXISTS "D:/Espressif/frameworks/esp-idf-v5.4/components/bootloader/subproject")
+  file(MAKE_DIRECTORY "D:/Espressif/frameworks/esp-idf-v5.4/components/bootloader/subproject")
+endif()
 file(MAKE_DIRECTORY
-  "D:/Espressif/frameworks/esp-idf-v5.1.2/components/bootloader/subproject"
   "C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/LED/build/bootloader"
   "C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/LED/build/bootloader-prefix"
   "C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/LED/build/bootloader-prefix/tmp"

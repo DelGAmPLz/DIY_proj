@@ -10,8 +10,7 @@
  * intended solely for learning and reference purpose.
  **/
 
-#include "../BSP/include/LED.h"
-#include "nvs_flash.h"
+#include "LED.h"
 
 void app_main(void)
 {
@@ -22,15 +21,15 @@ void app_main(void)
 	 *
 	 **/
 
-	esp_err_t ret;
+	/* 	esp_err_t ret;
 
-	ret = nvs_flash_init(); /* NVS */
-
-	if (ret == ESP_ERR_NVS_NO_FREE_PAGES || ret == ESP_ERR_NVS_NEW_VERSION_FOUND)
-	{
-		ESP_ERROR_CHECK(nvs_flash_erase());
 		ret = nvs_flash_init();
-	}
+
+		if (ret == ESP_ERR_NVS_NO_FREE_PAGES || ret == ESP_ERR_NVS_NEW_VERSION_FOUND)
+		{
+			ESP_ERROR_CHECK(nvs_flash_erase());
+			ret = nvs_flash_init();
+		} */
 
 	/* **************************************** Function Part *************************************** */
 
