@@ -554,6 +554,11 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
+  include("C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/ADC_Oneshot/build/esp-idf/BSP/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
   include("C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/ADC_Oneshot/build/esp-idf/main/cmake_install.cmake")
 endif()
 

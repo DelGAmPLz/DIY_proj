@@ -11,5 +11,8 @@
 		"IDF_TARGET": "esp32s3"
 	},
 	"idf.portWin": "COM6",
-	"idf.flashType": "UART"
+	"idf.flashType": "UART",
+	"files.associations": {
+		"led.h": "c"
+	}
 }

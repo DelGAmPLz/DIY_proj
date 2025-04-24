@@ -11,7 +11,7 @@
  * intended solely for learning and reference purpose.
  **/
 
-#include "../BSP/include/SPI_LCD.h"
+#include "SPI_LCD.h"
 #include "string.h"
 
 /* Initialize struct to store LCD configutation */
@@ -594,7 +594,6 @@ esp_err_t SPI_LCD_ShowXnum(uint16_t x, uint16_t y, uint32_t num, uint8_t len, Ch
 
 esp_err_t SPI_LCD_ShowString(uint16_t x, uint16_t y, uint16_t columns, uint16_t rows, Char_Size_t size, char *p, uint16_t char_color, uint16_t char_background_color)
 {
-
 	if (!Check_Edge(x, y) || !Check_Edge(x + columns, y + rows))
 		return ESP_ERR_INVALID_ARG;
 

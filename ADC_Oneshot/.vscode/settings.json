@@ -1,8 +1,8 @@
 {
-    "C_Cpp.intelliSenseEngine": "default",
-    "idf.espIdfPathWin": "D:/Espressif/frameworks/esp-idf-v5.4/",
-    "idf.pythonInstallPath": "D:\\Espressif\\tools\\idf-python\\3.11.2\\python.exe",
-    "idf.openOcdConfigs": [
+	"C_Cpp.intelliSenseEngine": "default",
+	"idf.espIdfPathWin": "D:/Espressif/frameworks/esp-idf-v5.4/",
+	"idf.pythonInstallPath": "D:\\Espressif\\tools\\idf-python\\3.11.2\\python.exe",
+	"idf.openOcdConfigs": [
 		"board/esp32s3-builtin.cfg"
 	],
 	"idf.toolsPathWin": "D:\\Espressif",
@@ -11,7 +11,8 @@
 		"adc_oneshot.h": "c",
 		"spi_lcd.h": "c",
 		"cstdint": "c",
-		"stdint.h": "c"
+		"stdint.h": "c",
+		"adc_types.h": "c"
 	},
 	"idf.customExtraVars": {
 		"IDF_TARGET": "esp32s3"

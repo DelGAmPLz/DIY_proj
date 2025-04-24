@@ -837,6 +837,13 @@ C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/ADC_Oneshot/build/esp-
 C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/ADC_Oneshot/build/esp-idf/wifi_provisioning/CMakeFiles/install.dir
 C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/ADC_Oneshot/build/esp-idf/wifi_provisioning/CMakeFiles/install/local.dir
 C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/ADC_Oneshot/build/esp-idf/wifi_provisioning/CMakeFiles/install/strip.dir
+C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/ADC_Oneshot/build/esp-idf/BSP/CMakeFiles/__idf_BSP.dir
+C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/ADC_Oneshot/build/esp-idf/BSP/CMakeFiles/edit_cache.dir
+C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/ADC_Oneshot/build/esp-idf/BSP/CMakeFiles/rebuild_cache.dir
+C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/ADC_Oneshot/build/esp-idf/BSP/CMakeFiles/list_install_components.dir
+C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/ADC_Oneshot/build/esp-idf/BSP/CMakeFiles/install.dir
+C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/ADC_Oneshot/build/esp-idf/BSP/CMakeFiles/install/local.dir
+C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/ADC_Oneshot/build/esp-idf/BSP/CMakeFiles/install/strip.dir
 C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/ADC_Oneshot/build/esp-idf/main/CMakeFiles/__idf_main.dir
 C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/ADC_Oneshot/build/esp-idf/main/CMakeFiles/edit_cache.dir
 C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/ADC_Oneshot/build/esp-idf/main/CMakeFiles/rebuild_cache.dir

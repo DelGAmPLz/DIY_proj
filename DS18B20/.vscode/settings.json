@@ -1,12 +1,22 @@
 {
-    "C_Cpp.intelliSenseEngine": "default",
-    "idf.espIdfPathWin": "D:/Espressif/frameworks/esp-idf-v5.4/",
-    "idf.pythonInstallPath": "D:\\Espressif\\tools\\idf-python\\3.11.2\\python.exe",
-    "idf.openOcdConfigs": [
-        "board/esp32s3-builtin.cfg"
-    ],
+	"C_Cpp.intelliSenseEngine": "default",
+	"idf.espIdfPathWin": "D:/Espressif/frameworks/esp-idf-v5.4/",
+	"idf.pythonInstallPath": "D:\\Espressif\\tools\\idf-python\\3.11.2\\python.exe",
+	"idf.openOcdConfigs": [
+		"board/esp32s3-builtin.cfg"
+	],
 	"idf.toolsPathWin": "D:\\Espressif",
 	"files.associations": {
-		"freertos.h": "c"
-	}
+		"freertos.h": "c",
+		"ds18b20.h": "c",
+		"spi_lcd.h": "c",
+		"esp_lcd_panel_ops.h": "c",
+		"gpio.h": "c",
+		"task.h": "c"
+	},
+	"idf.customExtraVars": {
+		"IDF_TARGET": "esp32s3"
+	},
+	"C_Cpp.default.compilerPath": "",
+	"idf.portWin": "COM6"
 }
