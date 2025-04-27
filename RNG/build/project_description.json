@@ -1,7 +1,7 @@
 {
     "version":            "1.1",
     "project_name":       "RNG",
-    "project_version":    "80cb9a63-dirty",
+    "project_version":    "354403c0-dirty",
     "project_path":       "C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/RNG",
     "idf_path":           "D:/Espressif/frameworks/esp-idf-v5.4",
     "build_dir":          "C:/Users/30381/Desktop/C/Embedded/ESP32/ESP32proj/DIY-Lib/RNG/build",

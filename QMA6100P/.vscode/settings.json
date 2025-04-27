@@ -1,9 +1,19 @@
 {
-    "C_Cpp.intelliSenseEngine": "default",
-    "idf.espIdfPathWin": "D:/Espressif/frameworks/esp-idf-v5.4/",
-    "idf.pythonInstallPath": "D:\\Espressif\\tools\\idf-python\\3.11.2\\python.exe",
-    "idf.openOcdConfigs": [
-        "board/esp32s3-builtin.cfg"
-    ],
-    "idf.toolsPathWin": "D:\\Espressif"
+	"C_Cpp.intelliSenseEngine": "default",
+	"idf.espIdfPathWin": "D:/Espressif/frameworks/esp-idf-v5.4/",
+	"idf.pythonInstallPath": "D:\\Espressif\\tools\\idf-python\\3.11.2\\python.exe",
+	"idf.openOcdConfigs": [
+		"board/esp32s3-builtin.cfg"
+	],
+	"idf.toolsPathWin": "D:\\Espressif",
+	"files.associations": {
+		"xl9555.h": "c",
+		"qma6100p.h": "c",
+		"string.h": "c",
+		"stdio.h": "c"
+	},
+	"idf.customExtraVars": {
+		"IDF_TARGET": "esp32s3"
+	},
+	"idf.portWin": "COM6"
 }

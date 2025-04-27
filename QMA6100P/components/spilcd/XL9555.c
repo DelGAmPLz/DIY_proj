@@ -1,4 +1,4 @@
-#include "../BSP/include/XL9555.h"
+#include "XL9555.h"
 #include "string.h"
 
 /* master and device handler */
@@ -21,8 +21,8 @@ esp_err_t XL9555_Read_All(uint8_t *r_buf)
 	uint8_t cmd1 = XL9555_INPUT_PORT1_REG;
 	uint8_t cmd0 = XL9555_INPUT_PORT0_REG;
 
-	i2c_master_transmit_receive(master_device_handle, &cmd1, 1, r_buf, 1, -1);
-	i2c_master_transmit_receive(master_device_handle, &cmd0, 1, r_buf + 1, 1, -1);
+	ESP_ERROR_CHECK(i2c_master_transmit_receive(master_device_handle, &cmd1, 1, r_buf, 1, -1));
+	ESP_ERROR_CHECK(i2c_master_transmit_receive(master_device_handle, &cmd0, 1, r_buf + 1, 1, -1));
 
 	return ESP_OK;
 }

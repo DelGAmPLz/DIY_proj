@@ -71,6 +71,9 @@ typedef enum
 #define XL9555_CONFIG_PORT0_REG 0x06	/* 方向配置寄存器0地址 */
 #define XL9555_CONFIG_PORT1_REG 0x07	/* 方向配置寄存器1地址 */
 
+/* XL9555 master bus handler */
+extern i2c_master_bus_handle_t master_handler;
+
 int Find_IO(IO_NUM IO);
 
 esp_err_t XL9555_Read_All(uint8_t *r_buf);

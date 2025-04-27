@@ -11,7 +11,7 @@
  * intended solely for learning and reference purpose.
  **/
 
-#include "../BSP/include/SPI_LCD.h"
+#include "SPI_LCD.h"
 #include "string.h"
 
 /* Initialize struct to store LCD configutation */
